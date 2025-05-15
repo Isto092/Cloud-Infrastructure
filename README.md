@@ -12,11 +12,12 @@ To design and implement a secure, scalable private cloud infrastructure that cen
 - Network Configuration and Management
 
 ### Tools Used
-[Bullet Points - Remove this afterwards]
 
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+- Amazon Web Services (AWS) – For building and managing the private cloud infrastructure, including virtual machines, networking, and load balancing.
+- FileCloud – Used for secure file sharing, storage, and management within the private cloud environment.
+- Virtual Machines (EC2 instances) – For hosting internal applications and services in an isolated, scalable environment.
+- Load Balancers (AWS Elastic Load Balancing) – To distribute traffic efficiently across multiple compute resources.
+- Network Configuration Tools (Subnets, Security Groups) – For setting up network segments, firewalls, and secure communication channels.
 
 ## Steps
 drag & drop screenshots here or use imgur and reference them using imgsrc
