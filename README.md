@@ -5,13 +5,11 @@
 To design and implement a secure, scalable private cloud infrastructure that centralizes application hosting, optimizes resource management, and enhances data security and compliance through the integration of AWS and FileCloud technologies.
 
 ### Skills Learned
-[Bullet Points - Remove this afterwards]
 
-- Advanced understanding of SIEM concepts and practical application.
-- Proficiency in analyzing and interpreting network logs.
-- Ability to generate and recognize attack signatures and patterns.
-- Enhanced knowledge of network protocols and security vulnerabilities.
-- Development of critical thinking and problem-solving skills in cybersecurity.
+- Cloud Infrastructure Design
+- Virtualization and Resource Optimization 
+- Security and Compliance Implementation
+- Network Configuration and Management
 
 ### Tools Used
 [Bullet Points - Remove this afterwards]
