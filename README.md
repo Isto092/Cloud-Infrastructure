@@ -20,10 +20,23 @@ To design and implement a secure, scalable private cloud infrastructure that cen
 - Network Configuration Tools (Subnets, Security Groups) – For setting up network segments, firewalls, and secure communication channels.
 
 ## Steps
-drag & drop screenshots here or use imgur and reference them using imgsrc
 
-Every screenshot should have some text explaining what the screenshot is about.
+Provisioned AWS Resources:
+ - Launched an EC2 instance using a FileCloud Amazon Machine Image (AMI) from the AWS Marketplace.
+ - Selected an appropriate instance type (t3.medium) to balance performance and cost.  
 
-Example below.
+Configured Network and Security Settings:
+ - Set up a Virtual Private Cloud (VPC) with necessary subnets.
+ - Configured security groups to allow inbound traffic on required ports (80 for HTTP and 443 for HTTPS). 
 
-*Ref 1: Network Diagram*
+Installed and Initialized FileCloud:
+ - Accessed the FileCloud installation page via the EC2 instance's public DNS to perform system checks.
+ - Logged into the FileCloud admin portal using default credentials and updated the admin password.  
+
+Integrated AWS Storage Solutions:
+ - Configured Amazon S3 as the primary storage backend for FileCloud to leverage scalable and durable storage.  
+
+Enhanced Security and Compliance:
+ - Implemented encryption for data at rest using AWS Key Management Service (KMS).
+ - Set up access controls and firewall rules to restrict unauthorized access.
+ - Ensured compliance with relevant data protection regulations by configuring appropriate policies. 
